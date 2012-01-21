@@ -1,0 +1,11 @@
+{
+  "env" : {
+    "prod" : {
+      "db" : "https://faust45:demo123@faust45.cloudant.com/reckoning"
+    },
+
+   "local" : {
+      "db" : "http://localhost:5984/reckoning/"
+    }
+  }
+}
