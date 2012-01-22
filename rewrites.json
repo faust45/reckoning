@@ -1,0 +1,14 @@
+[
+  {
+    "from": "",
+    "to": "index.html",
+    "method": "GET",
+    "query": {}
+  },
+  {
+    "from": "adds.html",
+    "to": "adds.html",
+    "method": "GET",
+    "query": {}
+  }
+]
