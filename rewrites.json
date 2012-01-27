@@ -10,5 +10,11 @@
     "to": "adds.html",
     "method": "GET",
     "query": {}
+  },
+  {
+    "from": "css/main.css",
+    "to": "css/main.css",
+    "method": "GET",
+    "query": {}
   }
 ]
