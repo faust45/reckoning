@@ -99,7 +99,14 @@
     "to": "css/main.css",
     "method": "GET",
     "query": {}
+  },
+  {
+    "from": "js/*",
+    "to": "js/*",
+    "method": "GET",
+    "query": {}
   }
+
 ]
 
 
