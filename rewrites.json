@@ -1,16 +1,99 @@
 [
   {
     "from": "",
-    "to": "index.html",
+    "to": "home.html",
+    "method": "GET",
+    "query": {}      
+  },
+{
+    "from": "logic.html",
+    "to": "logic.html",
     "method": "GET",
     "query": {}
   },
   {
-    "from": "adds.html",
-    "to": "adds.html",
+    "from": "more.html",
+    "to": "more.html",
     "method": "GET",
     "query": {}
   },
+  {
+    "from": "notes.html",
+    "to": "notes.html",
+    "method": "GET",
+    "query": {}
+  },
+{
+    "from": "life.html",
+    "to": "life.html",
+    "method": "GET",
+    "query": {}
+  },
+{
+    "from": "images/chiki.png",
+    "to": "images/chiki.png",
+    "method": "GET",
+    "query": {}
+  },
+{
+    "from": "images/chik.jpg",
+    "to": "images/chik.jpg",
+    "method": "GET",
+    "query": {}
+  },
+{
+    "from": "images/next.jpg",
+    "to": "images/next.jpg",
+    "method": "GET",
+    "query": {}
+  },
+{
+    "from": "images/note.png",
+    "to": "images/note.png",
+    "method": "GET",
+    "query": {}
+  },
+{
+    "from": "images/twitter.png",
+    "to": "images/twitter.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/youtube.png",
+    "to": "images/youtube.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/images.png",
+    "to": "images/images.png",
+    "method": "GET",
+    "query": {}
+  },
+{
+    "from": "images/basicx.jpeg",
+    "to": "images/basicx.jpeg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/verte.png",
+    "to": "images/verte.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/more.png",
+    "to": "images/more.png",
+    "method": "GET",
+    "query": {}
+  },
+
   {
     "from": "css/main.css",
     "to": "css/main.css",
@@ -18,3 +101,12 @@
     "query": {}
   }
 ]
+
+
+
+
+
+
+
+
+
