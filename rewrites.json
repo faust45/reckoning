@@ -88,8 +88,22 @@
   },
 
 {
+    "from": "images/lunar.png",
+    "to": "images/lunar.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
     "from": "images/more.png",
     "to": "images/more.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/inception.png",
+    "to": "images/inception.png",
     "method": "GET",
     "query": {}
   },
