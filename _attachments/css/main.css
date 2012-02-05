@@ -1,7 +1,42 @@
 
 
 body {
- 
-  background-image:url('/images/chiki.png');
+    background-image:url('/images/chiki.png');
+} 
 
-     } 
+
+#menu {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 6em;
+    border-bottom: 
+    text-align: center;
+}
+
+#menu ul {
+    float: center;
+    list-style-type: none;
+}
+
+#menu ul li {
+    float: left;
+    margin-left: 2em;
+    font-size: 2em;
+}
+
+#menu ul li.current {
+    float: left;
+    margin-left: 2em;
+    font-size: 2em;
+    border-bottom: 2px solid #DB4D67;
+}
+
+#menu ul li a {
+    color: #178B91;
+    text-decoration: none;
+}
+
+#menu ul li a:visited {
+    color: #178B91;
+}
+
