@@ -6,8 +6,8 @@
     "query": {}      
   },
 {
-    "from": "logic.html",
-    "to": "logic.html",
+    "from": "sequence.html",
+    "to": "sequence.html",
     "method": "GET",
     "query": {}
   },
@@ -17,18 +17,20 @@
     "method": "GET",
     "query": {}
   },
-  {
-    "from": "notes.html",
-    "to": "notes.html",
-    "method": "GET",
-    "query": {}
-  },
+  
 {
     "from": "life.html",
     "to": "life.html",
     "method": "GET",
     "query": {}
   },
+{
+    "from": "next.html",
+    "to": "next.html",
+    "method": "GET",
+    "query": {}
+  },
+
 {
     "from": "images/chiki.png",
     "to": "images/chiki.png",
@@ -73,12 +75,6 @@
     "method": "GET",
     "query": {}
   },
-{
-    "from": "images/basicx.jpeg",
-    "to": "images/basicx.jpeg",
-    "method": "GET",
-    "query": {}
-  },
 
 {
     "from": "images/verte.png",
@@ -104,6 +100,49 @@
 {
     "from": "images/inception.png",
     "to": "images/inception.png",
+    "method": "GET",
+    "query": {}
+  },
+
+
+{
+    "from": "images/near.png",
+    "to": "images/near.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/edward_scissorhands_small.jpg",
+    "to": "images/edward_scissorhands_small.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/ganondorfs_keep.jpg",
+    "to": "images/ganondorfs_keep.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/willy_wonka_by_tavington.jpg",
+    "to": "images/willy_wonka_by_tavington.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/SciFi.Fantasy.Hook-de-la-Mer.jpg",
+    "to": "images/SciFi.Fantasy.Hook-de-la-Mer.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/princessariline1a.jpg",
+    "to": "images/princessariline1a.jpg",
     "method": "GET",
     "query": {}
   },
