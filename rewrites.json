@@ -1,32 +1,41 @@
 [
   {
     "from": "",
-    "to": "home.html",
+    "to": "index.html",
     "method": "GET",
     "query": {}      
   },
 {
-    "from": "sequence.html",
-    "to": "sequence.html",
+    "from": "questions.html",
+    "to": "questions.html",
     "method": "GET",
     "query": {}
   },
+
+{
+    "from": "next.html",
+    "to": "next.html",
+    "method": "GET",
+    "query": {}
+  },
+
+
   {
-    "from": "more.html",
-    "to": "more.html",
+    "from": "fantasy.html",
+    "to": "fantasy.html",
     "method": "GET",
     "query": {}
   },
   
 {
-    "from": "life.html",
-    "to": "life.html",
+    "from": "animation.html",
+    "to": "animation.html",
     "method": "GET",
     "query": {}
   },
 {
-    "from": "next.html",
-    "to": "next.html",
+    "from": "quotes.html",
+    "to": "quotes.html",
     "method": "GET",
     "query": {}
   },
@@ -146,6 +155,133 @@
     "method": "GET",
     "query": {}
   },
+
+{
+    "from": "images/322439.jpg",
+    "to": "images/322439.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/tree_houses.jpg",
+    "to": "images/tree_houses.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/turtles.jpg",
+    "to": "images/turtles.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/heir_to_the_ice_kingdom.jpg",
+    "to": "images/heir_to_the_ice_kingdom.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/maeve_sidhe.jpg",
+    "to": "images/maeve_sidhe.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/Shores..jpg",
+    "to": "images/Shores..jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/fantasy.the_Great.jpg",
+    "to": "images/fantasy.the_Great.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/fantasy.Yin-of-yang.jpg",
+    "to": "images/fantasy.Yin-of-yang.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/lady_owl.jpg",
+    "to": "images/lady_owl.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/21world.jpg",
+    "to": "images/21world.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/Snow_castle.splashcastle71.jpg",
+    "to": "images/Snow_castle.splashcastle71.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/I-must-feel-to-know.399226.jpg",
+    "to": "images/I-must-feel-to-know.399226.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/rw234235.png",
+    "to": "images/rw234235.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/rt453322.png",
+    "to": "images/rt453322.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/abc3422.png",
+    "to": "images/abc3422.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/f3435.png",
+    "to": "images/f3435.png",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/get_the_fuck_out_of_my_house.jpg",
+    "to": "images/get_the_fuck_out_of_my_house.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
+{
+    "from": "images/1286093410_12363620693.jpg",
+    "to": "images/1286093410_12363620693.jpg",
+    "method": "GET",
+    "query": {}
+  },
+
 
   {
     "from": "css/main.css",
