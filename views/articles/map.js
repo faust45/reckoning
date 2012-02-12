@@ -1,5 +1,5 @@
 function(doc) {
     if (doc.type == "Article") {
-      emit(null, null);
+      emit(null, doc);
     }
 }

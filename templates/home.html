@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" media="screen" href="/css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/menu.js"></script>
+
+    </head>
+
+    <body>
+        <div id="menu">
+            <ul>
+                <li> <a href="/quotes.html">Movie Quotes</a></li>
+                <li> <a href="/animation.html">Animation</a></li>
+                <li> <a href="/questions.html">Question content</a></li>
+                <li> <a href="/fantasy.html">Fantasy</a></li>
+            </ul>
+        </div>
+
+        <div id="centered">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Share</a>
+            <ul>
+                {{#articles}}
+                <li> {{title}} </li>
+                {{/articles}}
+            </ul>
+        </div>
+    </body>
+</html>

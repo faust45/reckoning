@@ -1,7 +1,7 @@
 [
   {
     "from": "",
-    "to": "index.html",
+    "to": "_list/home/articles",
     "method": "GET",
     "query": {}      
   },
