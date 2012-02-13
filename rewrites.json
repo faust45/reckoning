@@ -296,6 +296,13 @@
     "query": {}
   },
 
+{
+    "from": "images/345fhe43gdh.png", 
+    "to": "images/345fhe43gdh.png",
+    "method": "GET",
+    "query": {}
+  },
+
 
   {
     "from": "css/main.css",
