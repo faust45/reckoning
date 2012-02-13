@@ -18,21 +18,9 @@
             </ul>
         </div>
 
-        <div class="left-menu">
-          <ul>
-             {{#articles}}
-             <li {{#isCurrent}} class="current" {{/isCurrent}}>
-               <a href="/articles/{{_id}}"> {{title}} </a>
-             </li>
-             {{/articles}}
-           </ul>
-        </div>
         <div id="centered">
             <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Share</a>
-            {{#current}}
-              <h1>{{title}}</h1>
-             {{{body}}}
-            {{/current}}
+            {{>content}}
         </div>
 
         <script type="text/javascript">

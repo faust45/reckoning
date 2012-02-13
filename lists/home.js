@@ -12,21 +12,11 @@ function(head, req) {
   while (row = getRow()) {
     var article = row.value;
     dataToRender.articles.push(article);
-
-    if (article._id == req.query.id) {
-      article.isCurrent = true; 
-      dataToRender.current = article;
-    }
+    article.shortBody = article.body.substring(0, 450) + "...";
   }
 
 
-  if (!dataToRender.current) {
-    var article = dataToRender.articles[0];
-    article.isCurrent = true; 
-    dataToRender.current = article;
-  }
-
-  var page = Mustache.to_html(ddoc.templates.home, dataToRender, {});
+  var page = Mustache.to_html(ddoc.templates.layout, dataToRender, {content: ddoc.templates.articles});
     
   send(page);
 }

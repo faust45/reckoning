@@ -13,7 +13,7 @@
   },
   {
     "from": "articles/:id",
-    "to": "_list/home/articles",
+    "to": "_show/article/:id",
     "query": { "id": ":id"},
     "method": "GET",
     "query": {}      

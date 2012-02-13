@@ -46,6 +46,14 @@ body {
 }
 
 
+#centered h1 {
+    font-size: 2em;
+}
+
+#centered h1 a {
+    text-decoration: none;
+}
+
 .left-menu {
     width: 20%;
 }
