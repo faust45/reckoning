@@ -10,7 +10,20 @@ function(head, req) {
 
   dataToRender.articles = [];
   while (row = getRow()) {
-    dataToRender.articles.push(row.value);
+    var article = row.value;
+    dataToRender.articles.push(article);
+
+    if (article._id == req.query.id) {
+      article.isCurrent = true; 
+      dataToRender.current = article;
+    }
+  }
+
+
+  if (!dataToRender.current) {
+    var article = dataToRender.articles[0];
+    article.isCurrent = true; 
+    dataToRender.current = article;
   }
 
   var page = Mustache.to_html(ddoc.templates.home, dataToRender, {});

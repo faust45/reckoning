@@ -5,6 +5,20 @@
     "method": "GET",
     "query": {}      
   },
+  {
+    "from": "articles",
+    "to": "_list/home/articles",
+    "method": "GET",
+    "query": {}      
+  },
+  {
+    "from": "articles/:id",
+    "to": "_list/home/articles",
+    "query": { "id": ":id"},
+    "method": "GET",
+    "query": {}      
+  },
+
 {
     "from": "questions.html",
     "to": "questions.html",
