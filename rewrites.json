@@ -12,6 +12,12 @@
     "query": {}      
   },
   {
+    "from": "admin",
+    "to": "_list/admin/by_type",
+    "method": "GET",
+    "query": {"group": "true"}      
+  },
+  {
     "from": "articles/:id",
     "to": "_show/article/:id",
     "query": { "id": ":id"},
@@ -305,8 +311,8 @@
 
 
   {
-    "from": "css/main.css",
-    "to": "css/main.css",
+    "from": "css/*",
+    "to": "css/*",
     "method": "GET",
     "query": {}
   },
