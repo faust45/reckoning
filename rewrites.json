@@ -6,6 +6,11 @@
     "query": {}      
   },
   {
+    "from": "/db/_view/*",
+    "to": "_view/*",
+    "method": "GET"
+  },
+  {
     "from": "articles",
     "to": "_list/home/articles",
     "method": "GET",
@@ -16,6 +21,10 @@
     "to": "_list/admin/by_type",
     "method": "GET",
     "query": {"group": "true"}      
+  },
+  {
+    "from": "db/*",
+    "to": "../../*"
   },
   {
     "from": "articles/:id",
@@ -59,257 +68,6 @@
     "method": "GET",
     "query": {}
   },
-
-{
-    "from": "images/chiki.png",
-    "to": "images/chiki.png",
-    "method": "GET",
-    "query": {}
-  },
-{
-    "from": "images/chik.jpg",
-    "to": "images/chik.jpg",
-    "method": "GET",
-    "query": {}
-  },
-{
-    "from": "images/next.jpg",
-    "to": "images/next.jpg",
-    "method": "GET",
-    "query": {}
-  },
-{
-    "from": "images/note.png",
-    "to": "images/note.png",
-    "method": "GET",
-    "query": {}
-  },
-{
-    "from": "images/twitter.png",
-    "to": "images/twitter.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/youtube.png",
-    "to": "images/youtube.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/images.png",
-    "to": "images/images.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/verte.png",
-    "to": "images/verte.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/lunar.png",
-    "to": "images/lunar.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/more.png",
-    "to": "images/more.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/inception.png",
-    "to": "images/inception.png",
-    "method": "GET",
-    "query": {}
-  },
-
-
-{
-    "from": "images/near.png",
-    "to": "images/near.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/edward_scissorhands_small.jpg",
-    "to": "images/edward_scissorhands_small.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/ganondorfs_keep.jpg",
-    "to": "images/ganondorfs_keep.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/willy_wonka_by_tavington.jpg",
-    "to": "images/willy_wonka_by_tavington.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/SciFi.Fantasy.Hook-de-la-Mer.jpg",
-    "to": "images/SciFi.Fantasy.Hook-de-la-Mer.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/princessariline1a.jpg",
-    "to": "images/princessariline1a.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/322439.jpg",
-    "to": "images/322439.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/tree_houses.jpg",
-    "to": "images/tree_houses.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/turtles.jpg",
-    "to": "images/turtles.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/heir_to_the_ice_kingdom.jpg",
-    "to": "images/heir_to_the_ice_kingdom.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/maeve_sidhe.jpg",
-    "to": "images/maeve_sidhe.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/Shores..jpg",
-    "to": "images/Shores..jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/fantasy.the_Great.jpg",
-    "to": "images/fantasy.the_Great.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/fantasy.Yin-of-yang.jpg",
-    "to": "images/fantasy.Yin-of-yang.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/lady_owl.jpg",
-    "to": "images/lady_owl.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/21world.jpg",
-    "to": "images/21world.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/Snow_castle.splashcastle71.jpg",
-    "to": "images/Snow_castle.splashcastle71.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/I-must-feel-to-know.399226.jpg",
-    "to": "images/I-must-feel-to-know.399226.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/rw234235.png",
-    "to": "images/rw234235.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/rt453322.png",
-    "to": "images/rt453322.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/abc3422.png",
-    "to": "images/abc3422.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/f3435.png",
-    "to": "images/f3435.png",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/get_the_fuck_out_of_my_house.jpg",
-    "to": "images/get_the_fuck_out_of_my_house.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/1286093410_12363620693.jpg",
-    "to": "images/1286093410_12363620693.jpg",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "images/345fhe43gdh.png", 
-    "to": "images/345fhe43gdh.png",
-    "method": "GET",
-    "query": {}
-  },
-
-
   {
     "from": "css/*",
     "to": "css/*",
@@ -321,8 +79,13 @@
     "to": "js/*",
     "method": "GET",
     "query": {}
+  },
+  {
+    "from": "images/*",
+    "to": "images/*",
+    "method": "GET",
+    "query": {}
   }
-
 ]
 
 

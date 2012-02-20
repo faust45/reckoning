@@ -5,7 +5,7 @@
  * https://github.com/rails/jquery-ujs
  */
 
-(function($) {
+function initFroms(db) {
 	// Make sure that every Ajax request sends the CSRF token
 	function CSRFProtection(fn) {
 		var token = $('meta[name="csrf-token"]').attr('content');
@@ -54,14 +54,12 @@
 			data = null;
 		}
 
-		$.ajax({
-			url: url, type: method || 'GET', data: data, dataType: dataType,
+                var options = {
+	                url: url, type: method || 'GET',
 			// stopping the "ajax:beforeSend" event will cancel the ajax request
 			beforeSend: function(xhr, settings) {
-				if (settings.dataType === undefined) {
-					xhr.setRequestHeader('accept', '*/*;q=0.5, ' + settings.accepts.script);
-				}
-				return fire(element, 'ajax:beforeSend', [xhr, settings]);
+		           xhr.setRequestHeader('accept', '*/*;q=0.5, ' + settings.accepts.script);
+		           return fire(element, 'ajax:beforeSend', [xhr, settings]);
 			},
 			success: function(data, status, xhr) {
 				element.trigger('ajax:success', [data, status, xhr]);
@@ -72,7 +70,29 @@
 			error: function(xhr, status, error) {
 				element.trigger('ajax:error', [xhr, status, error]);
 			}
-		});
+		};
+
+                var data = element.toObject();
+                db.save(data, options);
+		//$.ajax({
+		//	url: url, type: method || 'GET', data: data, dataType: dataType, contentType: "application/json",
+		//	// stopping the "ajax:beforeSend" event will cancel the ajax request
+		//	beforeSend: function(xhr, settings) {
+		//		if (settings.dataType === undefined) {
+		//			xhr.setRequestHeader('accept', '*/*;q=0.5, ' + settings.accepts.script);
+		//		}
+		//		return fire(element, 'ajax:beforeSend', [xhr, settings]);
+		//	},
+		//	success: function(data, status, xhr) {
+		//		element.trigger('ajax:success', [data, status, xhr]);
+		//	},
+		//	complete: function(xhr, status) {
+		//		element.trigger('ajax:complete', [xhr, status]);
+		//	},
+		//	error: function(xhr, status, error) {
+		//		element.trigger('ajax:error', [xhr, status, error]);
+		//	}
+		//});
 	}
 
 	// Handles "data-method" on links such as:
@@ -166,4 +186,4 @@
 	$('form').live('ajax:complete.rails', function(event) {
 		if (this == event.target) enableFormElements($(this));
 	});
-})( jQuery );
+};

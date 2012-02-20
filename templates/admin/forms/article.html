@@ -1,0 +1,27 @@
+<form class="form-horizontal" data-remote="true">
+    <input type="hidden" name="_id"  value="{{_id}}">
+    <input type="hidden" name="_rev" value="{{_rev}}">
+    <input type="hidden" name="type" value="{{type}}">
+
+    <fieldset>
+        <legend></legend>
+        <img class="load-ico fade" src="images/ajax-loader-2.gif" >
+        <div class="control-group">
+            <div class="controls">
+                <p class="help-block">Title</p>
+                <input type="text" class="input-xlarge" name="title" value="{{title}}">
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="controls">
+                <p class="help-block">Body</p>
+                <textarea class="input-xlarge" name="body">{{body}}</textarea>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Save changes</button>
+            <button class="btn">Cancel</button>
+        </div>
+    </fieldset>
+</form>

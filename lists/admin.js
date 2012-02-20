@@ -13,10 +13,10 @@ function(head, req) {
 
   if (v.isAdmin()) {
       layout = ddoc.templates.admin.layout;
+      partials = ddoc.templates.admin; 
       data.types = [];
       while (row = getRow()) {
           data.types.push(row);
-          log(row);
       }
   } else {
     layout = ddoc.templates.admin.login_form;
