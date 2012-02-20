@@ -303,6 +303,12 @@
     "query": {}
   },
 
+{
+    "from": "images/w53234889.png", 
+    "to": "images/w53234889.png",
+    "method": "GET",
+    "query": {}
+  },
 
   {
     "from": "css/main.css",
