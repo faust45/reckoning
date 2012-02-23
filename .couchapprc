@@ -5,7 +5,7 @@
     },
 
    "local" : {
-      "db" : "http://localhost:5984/reckoning/"
+      "db" : "http://faust45:demo123@localhost/reckoning/"
     }
   }
 }

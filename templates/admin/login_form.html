@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" media="screen" href="/css/admin.css">
+        <link type="text/css" rel="stylesheet" media="screen" href="/css/bootstrap.css">
+        <style type="text/css">
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+            .sidebar-nav {
+                padding: 9px 0;
+            }
+        </style>
+
+        <link type="text/css" rel="stylesheet" media="screen" href="/css/bootstrap-responsive.css">
+        <link type="text/css" rel="stylesheet" media="screen" href="/css/docs.css">
+        <link type="text/css" rel="stylesheet" media="screen" href="/css/prettify.css">
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="_utils/script/jquery.couch.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/routes.js"></script>
+        <script src="js/rails.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script>
+            $(function() {
+                $('#login-form').bind('ajax:complete', function(e, xhr, status) {
+                    if (status == 'success') {
+                        window.location.reload();
+                        } else {
+                        $('#notice').addClass('in');
+                    }
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="notice" class="alert alert-error fade">
+                <h4 class="alert-heading">Sorry but we couldn't identify you..</h4>
+            </div>
+
+            <form id="login-form" class="well form-horizontal" action="_session" method="POST" data-remote="true">
+                <fieldset>
+                <div class="control-group">
+                  <label class="control-label"> Login </label>
+                  <div class="controls">
+                      <input id="input01" type="text" name="name"  class="input-xlarge">
+                  </div>
+                </div>
+
+                <div class="control-group">
+                  <label class="control-label"> Password </label>
+                  <div class="controls">
+                      <input type="text" name="password" class="input-xlarge">
+                  </div>
+              </div>
+
+                <div class="form-actions">
+                    <button class="btn" type="submit">Do Login</button>
+                </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
