@@ -3,18 +3,25 @@
     "from": "",
     "to": "_list/home/articles",
     "method": "GET",
-    "query": {}      
+    "query": {"view": "articles"}
+  },
+  {
+    "from": "articles",
+    "to": "_list/home/articles",
+    "method": "GET",
+    "query": {"view": "articles"}
   },
   {
     "from": "/db/_view/*",
     "to": "_view/*",
     "method": "GET"
   },
+
   {
-    "from": "articles",
-    "to": "_list/home/articles",
+    "from": "fantasy",
+    "to": "_list/home/fantasy",
     "method": "GET",
-    "query": {}      
+    "query": {"view": "fantasy"}
   },
   {
     "from": "admin",
