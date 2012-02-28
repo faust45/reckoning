@@ -37,12 +37,11 @@ body {
 
 #centered {
 	position:relative; clear:left;
-	height:2720%; width:80%; max-width:800px; min-width:400px;
+	height:2720%; width:80%; max-width:800px; min-width:900px;
 	margin:0 auto;
-	background:#fff;
         -moz-border-radius: 15px;
         border-radius: 15px;
-        padding: 15 15 15 15;
+        padding: 0;
 }
 
 
@@ -84,7 +83,16 @@ body {
 
 
 
+.white {
+    background:#fff;
+    margin: 0;
+    padding: 15 15 15 15;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+}
 
 
 
-
+#slideshow img {
+    max-width: 675;
+}
