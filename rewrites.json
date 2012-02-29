@@ -12,7 +12,7 @@
     "query": {"view": "articles"}
   },
   {
-    "from": "articles",
+    "from": "investment",
     "to": "_list/home/investment",
     "method": "GET",
     "query": {"view": "articles"}
