@@ -49,7 +49,7 @@ function initFroms(db) {
 				element.data('ujs:submit-button', null);
 			}
 		} else {
-			method = element.attr('data-method');
+			method = element.attr('method');
 			url = element.attr('href');
 			data = null;
 		}
@@ -72,8 +72,19 @@ function initFroms(db) {
 			}
 		};
 
+
+                function toJSON(obj) {
+                   return obj !== null ? JSON.stringify(obj) : null;
+                }
+
                 var data = element.toObject();
-                db.save(data, options);
+                if (!url) {
+                  db.save(data, options);
+                 } else {
+                    var data = element.serializeArray();
+                    options.data = data;
+                    $.ajax(options);
+                 }
 		//$.ajax({
 		//	url: url, type: method || 'GET', data: data, dataType: dataType, contentType: "application/json",
 		//	// stopping the "ajax:beforeSend" event will cancel the ajax request
