@@ -1,6 +1,10 @@
 
 function shortBody() {
-  return this.body.substring(0, 450) + "...";
+  if (this.body) {
+    return this.body.substring(0, 450) + "...";
+  } {
+    return "";
+  }
 }
 
 exports.shortBody = shortBody
