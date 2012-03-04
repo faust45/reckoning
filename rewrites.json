@@ -52,34 +52,6 @@
   },
 
 {
-    "from": "questions.html",
-    "to": "questions.html",
-    "method": "GET",
-    "query": {}
-  },
-
-{
-    "from": "next.html",
-    "to": "next.html",
-    "method": "GET",
-    "query": {}
-  },
-
-
-  {
-    "from": "fantasy.html",
-    "to": "fantasy.html",
-    "method": "GET",
-    "query": {}
-  },
-  
-{
-    "from": "investment.html",
-    "to": "investment.html",
-    "method": "GET",
-    "query": {}
-  },
-{
     "from": "quotes.html",
     "to": "quotes.html",
     "method": "GET",
