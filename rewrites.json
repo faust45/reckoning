@@ -52,8 +52,8 @@
   },
 
 {
-    "from": "quotes.html",
-    "to": "quotes.html",
+    "from": "nightlife.html",
+    "to": "nightlife.html",
     "method": "GET",
     "query": {}
   },
