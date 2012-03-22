@@ -11,12 +11,15 @@
     "method": "GET",
     "query": {"view": "articles"}
   },
+
+
   {
     "from": "investment",
     "to": "_list/home/investment",
     "method": "GET",
     "query": {"view": "articles"}
   },
+
   {
     "from": "/db/_view/*",
     "to": "_view/*",
